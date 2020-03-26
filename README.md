@@ -1,5 +1,7 @@
 # OpenHandheld MX
 
+This is an early work-in-progress of a open-source development board in the shape of a handheld game console. It isn't yet suited for end-users!
+
 ## License
 
 Copyright (c) 2020 AlfonsoJLuna (Alfonso Luna)
