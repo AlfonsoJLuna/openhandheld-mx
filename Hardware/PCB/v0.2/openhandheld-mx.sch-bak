@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "OpenHandheld MX"
-Date "2020-04-26"
+Date "2020-06-19"
 Rev "v0.2"
 Comp "The OpenHandheld Project"
 Comment1 "openhandheld.com"
@@ -41,12 +41,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR043
 U 1 1 5E7FFD2B
-P 9750 1950
-F 0 "#PWR043" H 9750 1700 50  0001 C CNN
-F 1 "GND" H 9750 1800 50  0000 C CNN
-F 2 "" H 9750 1950 50  0001 C CNN
-F 3 "" H 9750 1950 50  0001 C CNN
-	1    9750 1950
+P 9700 2200
+F 0 "#PWR043" H 9700 1950 50  0001 C CNN
+F 1 "GND" H 9700 2050 50  0000 C CNN
+F 2 "" H 9700 2200 50  0001 C CNN
+F 3 "" H 9700 2200 50  0001 C CNN
+	1    9700 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -130,16 +130,6 @@ Wire Wire Line
 	6750 1300 6750 1550
 Text Label 6750 1300 2    50   ~ 0
 VBAT
-Wire Notes Line
-	7450 2050 9200 2050
-Wire Notes Line
-	7450 2550 7450 2050
-Wire Notes Line
-	9200 2550 7450 2550
-Wire Notes Line
-	9200 2050 9200 2550
-Text Notes 7500 2500 0    50   ~ 0
-Warning:\n- Use rechargeable LIR2450 only.\n- Non-rechargeable CR2450 is prohibited.\n- Insert battery with correct polarity only.\n- Reverse polarity will cause damage.\n
 Text Notes 4200 850  0    79   Italic 16
 Battery Charger
 Text Notes 7550 850  0    79   Italic 16
@@ -254,15 +244,15 @@ Wire Wire Line
 Wire Wire Line
 	11800 1700 11800 1500
 $Comp
-L _AKL_Battery:BK-880 J3
+L _AKL_Battery:Solder_Pad_D2 J3
 U 1 1 5E8574BB
-P 7900 1500
-F 0 "J3" H 8018 1596 50  0000 L CNN
-F 1 "BK-880" H 8018 1505 50  0000 L CNN
-F 2 "_AKL_Battery:BK-880" V 7900 1560 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/es/mpd-memory-protection-devices/BK-880/BK-880-ND/2439467" V 7900 1560 50  0001 C CNN
-F 4 "BK-880" H 7900 1500 50  0001 C CNN "MPN"
-	1    7900 1500
+P 7850 1750
+F 0 "J3" H 7968 1846 50  0000 L CNN
+F 1 "Battery" H 7968 1755 50  0000 L CNN
+F 2 "_AKL_Battery:Solder_Pad_D2" V 7850 1810 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/es/mpd-memory-protection-devices/BK-880/BK-880-ND/2439467" V 7850 1810 50  0001 C CNN
+F 4 "BK-880" H 7850 1750 50  0001 C CNN "MPN"
+	1    7850 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -423,77 +413,77 @@ F 4 "RC0402FR-0720KL" H 6400 1750 44  0001 C CNN "MPN"
 	1    6400 1750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9250 1850
-NoConn ~ 9600 1500
+NoConn ~ 9200 2100
+NoConn ~ 9550 1750
 Wire Wire Line
-	9400 1850 9400 1900
+	9350 2100 9350 2150
 Wire Wire Line
-	9600 1350 9750 1350
+	9550 1600 9700 1600
 Wire Wire Line
-	9750 1350 9750 1400
+	9700 1600 9700 1650
 Wire Wire Line
-	9750 1700 9750 1900
+	9700 1950 9700 2150
 Wire Wire Line
-	9750 1900 9400 1900
+	9700 2150 9350 2150
 $Comp
 L _AKL_Capacitor:100nF C22
 U 1 1 5E9CB7D4
-P 8450 1600
-F 0 "C22" H 8565 1646 50  0000 L CNN
-F 1 "100nF" H 8565 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 1450 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/es/samsung-electro-mechanics/CL05B104KO5NNNC/1276-1001-1-ND/3889087" H 8450 1600 50  0001 C CNN
-F 4 "CL05B104KO5NNNC" H 8450 1600 50  0001 C CNN "MPN"
-	1    8450 1600
+P 8400 1850
+F 0 "C22" H 8515 1896 50  0000 L CNN
+F 1 "100nF" H 8515 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8438 1700 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/es/samsung-electro-mechanics/CL05B104KO5NNNC/1276-1001-1-ND/3889087" H 8400 1850 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 8400 1850 50  0001 C CNN "MPN"
+	1    8400 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 1750 8450 1900
+	8400 2000 8400 2150
 Wire Wire Line
-	8450 1900 8850 1900
+	8400 2150 8800 2150
 Wire Wire Line
-	9100 1900 9100 1850
+	9050 2150 9050 2100
 Wire Wire Line
-	8450 1300 8450 1350
+	8400 1550 8400 1600
 Wire Wire Line
-	8450 1350 8900 1350
-Connection ~ 8450 1350
+	8400 1600 8850 1600
+Connection ~ 8400 1600
 Wire Wire Line
-	8450 1350 8450 1450
+	8400 1600 8400 1700
 Wire Wire Line
-	8900 1500 8850 1500
+	8850 1750 8800 1750
 Wire Wire Line
-	8850 1500 8850 1900
-Connection ~ 8850 1900
+	8800 1750 8800 2150
+Connection ~ 8800 2150
 Wire Wire Line
-	8850 1900 9100 1900
-Connection ~ 8450 1900
+	8800 2150 9050 2150
+Connection ~ 8400 2150
 Wire Wire Line
-	8450 950  8450 1000
-Text Label 9900 950  2    50   ~ 0
+	8400 1200 8400 1250
+Text Label 9850 1200 2    50   ~ 0
 VBAT
 Wire Wire Line
-	7900 1300 7900 950 
+	7850 1550 7850 1200
 Wire Wire Line
-	7900 950  8450 950 
+	7850 1200 8400 1200
 Wire Wire Line
-	7900 1600 7900 1900
+	7850 1850 7850 2150
 Wire Wire Line
-	7900 1900 8450 1900
+	7850 2150 8400 2150
 Wire Wire Line
-	9750 1900 9750 1950
-Connection ~ 9750 1900
-Connection ~ 8450 950 
+	9700 2150 9700 2200
+Connection ~ 9700 2150
+Connection ~ 8400 1200
 $Comp
 L _AKL_Resistor_402:2K4 R21
 U 1 1 5EA90202
-P 9750 1550
-F 0 "R21" H 9820 1596 50  0000 L CNN
-F 1 "2K4" H 9820 1505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9750 1550 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/es/yageo/RC0402FR-072K4L/311-2-40KLRCT-ND/729502" H 9750 1550 50  0001 C CNN
-F 4 "RC0402FR-072K4L" H 9750 1550 44  0001 C CNN "MPN"
-	1    9750 1550
+P 9700 1800
+F 0 "R21" H 9770 1846 50  0000 L CNN
+F 1 "2K4" H 9770 1755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9700 1800 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/es/yageo/RC0402FR-072K4L/311-2-40KLRCT-ND/729502" H 9700 1800 50  0001 C CNN
+F 4 "RC0402FR-072K4L" H 9700 1800 44  0001 C CNN "MPN"
+	1    9700 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -582,14 +572,14 @@ Wire Wire Line
 Wire Wire Line
 	11400 1500 11400 1350
 $Comp
-L _AKL_Diode:MBR0520L D8
+L _AKL_Diode:NSR0520V2T1G D8
 U 1 1 5EC15C97
 P 11100 1500
 F 0 "D8" H 11100 1600 50  0000 C CNN
-F 1 "MBR0520L" H 11100 1400 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 11100 1500 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/es/on-semiconductor/MBR0520L/MBR0520LCT-ND/458961" H 11100 1500 50  0001 C CNN
-F 4 "MBR0520L" H 11100 1500 50  0001 C CNN "MPN"
+F 1 "NSR0520V2T1G" H 11100 1400 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 11100 1500 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/es/on-semiconductor/NSR0520V2T1G/NSR0520V2T1GOSCT-ND/1981501" H 11100 1500 50  0001 C CNN
+F 4 "NSR0520V2T1G" H 11100 1500 50  0001 C CNN "MPN"
 	1    11100 1500
 	-1   0    0    1   
 $EndComp
@@ -829,13 +819,13 @@ Wire Wire Line
 $Comp
 L _AKL_IC:AP9211S-AN-HAC-7 U7
 U 1 1 5F172420
-P 9250 1500
-F 0 "U7" H 9250 1915 50  0000 C CNN
-F 1 "AP9211S-AN-HAC-7" H 9250 1824 50  0000 C CNN
-F 2 "_AKL_IC:AP9211S-AN-HAC-7" H 8950 2450 50  0001 C CNN
-F 3 "https://www.mouser.es/ProductDetail/Diodes-Incorporated/AP9211S-AN-HAC-7?qs=%2Fha2pyFaduhU8ORG8s%252BdQ8wjonur7%2FvJn%252BxxLU0AZ5qESSeNUE%2F1LA%3D%3D" H 8950 2450 50  0001 C CNN
-F 4 "AP9211S-AN-HAC-7" H 9250 1800 50  0001 C CNN "MPN"
-	1    9250 1500
+P 9200 1750
+F 0 "U7" H 9200 2165 50  0000 C CNN
+F 1 "AP9211S-AN-HAC-7" H 9200 2074 50  0000 C CNN
+F 2 "_AKL_IC:AP9211S-AN-HAC-7" H 8900 2700 50  0001 C CNN
+F 3 "https://www.mouser.es/ProductDetail/Diodes-Incorporated/AP9211S-AN-HAC-7?qs=%2Fha2pyFaduhU8ORG8s%252BdQ8wjonur7%2FvJn%252BxxLU0AZ5qESSeNUE%2F1LA%3D%3D" H 8900 2700 50  0001 C CNN
+F 4 "AP9211S-AN-HAC-7" H 9200 2050 50  0001 C CNN "MPN"
+	1    9200 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2647,17 +2637,17 @@ $EndComp
 $Comp
 L _AKL_Resistor_402:510 R20
 U 1 1 5EBDA8F2
-P 8450 1150
-F 0 "R20" H 8520 1196 50  0000 L CNN
-F 1 "510" H 8520 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 1150 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/es/yageo/RC0402FR-07510RL/311-510LRCT-ND/729579" H 8450 1150 50  0001 C CNN
-F 4 "RC0402FR-07510RL" H 8450 1150 44  0001 C CNN "MPN"
-	1    8450 1150
+P 8400 1400
+F 0 "R20" H 8470 1446 50  0000 L CNN
+F 1 "510" H 8470 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 1400 50  0001 C CNN
+F 3 "https://www.digikey.es/product-detail/es/yageo/RC0402FR-07510RL/311-510LRCT-ND/729579" H 8400 1400 50  0001 C CNN
+F 4 "RC0402FR-07510RL" H 8400 1400 44  0001 C CNN "MPN"
+	1    8400 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 950  9900 950 
+	8400 1200 9850 1200
 Text Notes 750  10950 0    50   ~ 0
 Note: For more details open the file audio-simulation.asc in LTspice
 Wire Notes Line
@@ -3248,11 +3238,11 @@ Text Label 5400 2200 1    50   ~ 0
 CHG_STAT
 Text Label 6150 1450 0    50   ~ 0
 PROG
-Text Label 7900 1900 0    50   ~ 0
+Text Label 7850 2150 0    50   ~ 0
 BAT_GND
-Text Label 8450 1450 0    50   ~ 0
+Text Label 8400 1700 0    50   ~ 0
 AP9_VDD
-Text Label 9600 1350 0    50   ~ 0
+Text Label 9550 1600 0    50   ~ 0
 VM
 Text Label 12250 1800 0    50   ~ 0
 EN
@@ -3484,18 +3474,6 @@ F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1850 9900 50  0001 L CNN
 F 3 "https://www.digikey.es/product-detail/es/texas-instruments/TLV9061IDCKR/296-53199-1-ND/9860350" H 1850 9900 50  0001 C CNN
 F 4 "TLV9061IDCKR" H 2100 9700 50  0001 C CNN "MPN"
 	1    1850 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L _AKL_Transistor:SI2102-TP Q?
-U 1 1 5EECE56F
-P 17900 4300
-F 0 "Q?" H 18104 4346 50  0000 L CNN
-F 1 "SI2102-TP" H 18104 4255 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 18100 4400 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/es/micro-commercial-co/SI2102-TP/SI2102-TPMSCT-ND/10054394" H 17900 4300 50  0001 C CNN
-F 4 "SI2102-TP" H 17900 4300 50  0001 C CNN "MPN"
-	1    17900 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
