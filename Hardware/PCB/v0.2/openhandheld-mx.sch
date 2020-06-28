@@ -1186,24 +1186,12 @@ F 4 "PPPC062LFBN-RC" H 14900 3550 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 1450 3600 1450
-Wire Wire Line
-	2850 1250 3600 1250
-Wire Wire Line
 	2750 1150 3600 1150
-Connection ~ 2950 1450
-Wire Wire Line
-	2950 1700 2950 1450
-Connection ~ 2850 1250
-Wire Wire Line
-	2850 1700 2850 1250
 Connection ~ 2750 1150
 Wire Wire Line
 	2750 1700 2750 1150
 Wire Wire Line
-	1950 1450 2950 1450
-Wire Wire Line
-	1950 1250 2850 1250
+	1950 1450 2850 1450
 Wire Wire Line
 	1900 1150 2750 1150
 Wire Wire Line
@@ -3476,4 +3464,16 @@ F 4 "TLV9061IDCKR" H 2100 9700 50  0001 C CNN "MPN"
 	1    1850 9900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 1250 2950 1250
+Wire Wire Line
+	2850 1700 2850 1450
+Connection ~ 2850 1450
+Wire Wire Line
+	2850 1450 3600 1450
+Wire Wire Line
+	2950 1700 2950 1250
+Connection ~ 2950 1250
+Wire Wire Line
+	2950 1250 3600 1250
 $EndSCHEMATC
