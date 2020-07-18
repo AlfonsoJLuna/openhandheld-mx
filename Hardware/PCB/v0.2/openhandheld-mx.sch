@@ -1089,9 +1089,9 @@ Text Label 9100 5700 3    50   ~ 0
 USART2_TX
 Text Label 15200 3750 0    50   ~ 0
 USART2_TX
-Text Label 9200 5700 3    50   ~ 0
-JOY_X
 Text Label 9300 5700 3    50   ~ 0
+JOY_X
+Text Label 9200 5700 3    50   ~ 0
 JOY_Y
 Text Label 9400 5700 3    50   ~ 0
 DAC_PWM_OUT
@@ -3239,9 +3239,9 @@ LED_PWR
 Text Label 1950 3950 0    50   ~ 0
 USB_RST
 Text Label 3900 4500 0    50   ~ 0
-LED_RX
+LED_RXD
 Text Label 4350 4500 0    50   ~ 0
-LED_TX
+LED_TXD
 Text Label 3600 4850 0    50   ~ 0
 RXT
 Text Label 3600 4950 0    50   ~ 0
