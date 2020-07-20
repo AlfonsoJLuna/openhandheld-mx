@@ -3239,9 +3239,9 @@ LED_PWR
 Text Label 1950 3950 0    50   ~ 0
 USB_RST
 Text Label 3900 4500 0    50   ~ 0
-LED_RX
+LED_RXD
 Text Label 4350 4500 0    50   ~ 0
-LED_TX
+LED_TXD
 Text Label 3600 4850 0    50   ~ 0
 RXT
 Text Label 3600 4950 0    50   ~ 0
