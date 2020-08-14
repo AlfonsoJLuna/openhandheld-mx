@@ -250,8 +250,8 @@ P 7850 1750
 F 0 "J3" H 7968 1846 50  0000 L CNN
 F 1 "Battery" H 7968 1755 50  0000 L CNN
 F 2 "_AKL_Battery:Solder_Pad_D2" V 7850 1810 50  0001 C CNN
-F 3 "https://www.digikey.es/product-detail/es/mpd-memory-protection-devices/BK-880/BK-880-ND/2439467" V 7850 1810 50  0001 C CNN
-F 4 "BK-880" H 7850 1750 50  0001 C CNN "MPN"
+F 3 "" V 7850 1810 50  0001 C CNN
+F 4 "" H 7850 1750 50  0001 C CNN "MPN"
 	1    7850 1750
 	1    0    0    -1  
 $EndComp
