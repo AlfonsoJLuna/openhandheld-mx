@@ -1,5 +1,7 @@
 # OpenHandheld MX
 
+![OpenHandheld MX](Images/openhandheld-mx-pcb.png)
+
 This is an early work-in-progress of an open-source development board in the shape of a handheld game console. It isn't yet suited for end-users!
 
 ## License
