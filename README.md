@@ -8,4 +8,4 @@ Front | Back
 
 ## Related repositories
 
-Firmware for this project lives in [openhandheld-mx-fw](https://github.com/AlfonsoJLuna/openhandheld-mx-fw).
+Example code for this board can be found in [openhandheld-mx-sdk](https://github.com/AlfonsoJLuna/openhandheld-mx-sdk).
